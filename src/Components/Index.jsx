@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-export const Index = () => {
+ const Index = () => {
     const ApiKey='d0ebdb8ed8362258db5ec41f1d6f68e0'
     const url='https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}'
     const [city,setCity]=useState('meerut')
@@ -72,3 +72,4 @@ export const Index = () => {
     </>
   );
 };
+export default Index
